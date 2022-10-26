@@ -27,3 +27,18 @@ const brokkolliProduct  = true;
 console.log(meatProduct && brokkolliProduct);
 console.log(meatProduct || brokkolliProduct);
 console.log(!meatProduct && !brokkolliProduct);
+
+let a = 10;
+    b = 13;
+
+if (a > 5){
+    console.log('More, than');
+} else{
+    console.log('No more');
+}
+
+switch (a){
+    case 49:
+        console.log('Привеь!');
+        break;
+}
